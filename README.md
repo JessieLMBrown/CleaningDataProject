@@ -1,0 +1,6 @@
+#README for Getting and Cleaning Data Course Project
+#Jessica Brown
+
+This repository contains the dataset "tidydata.txt". It is a summary of the Human Activity Recognition Using Smartphones (HARUS) Data Set found at the UCI Machine Learning Repository: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones . The HARUS data collected is from 30 subjects using accelerometers from the Samsung Galaxy S smartphone. For each subject, there is data for six human activities: walking, walking upstairs, walking downstairs, sitting, standing, and laying down. My dataset, tidydata.txt contains only the mean and standard deviation variables, and reports the mean of each variable for each activity for each subject. tidydata.txt is a dataframe with 180 rows (30 subjects * 6 activities each) and 81 columns (79 variables plus a column for subject number and a column for the activity description).  
+
+This repo also contains the R script that created tidydata.txt named "run_analysis.R", and the file "CodeBook.md" that describes the variables in tidydata.txt. 
